@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio professionnel en systèmes embarqués, ingénierie et IoT. Découvrez mes compétences et projets.">
+    <meta name="keywords" content="systèmes embarqués, IoT, ingénierie, freelance, portfolio">
+    <meta name="author" content="Valentin Caille">
+    <title>Projets - Valentin Caille</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .bg-primary {
+            background-color: #F9FAFB;
+        }
+        .text-primary {
+            color: #1F2937;
+        }
+        .accent {
+            color: #3B82F6;
+        }
+        .btn-primary {
+            background-color: #3B82F6;
+            color: #FFFFFF;
+            padding: 0.5rem 1rem;
+            border-radius: 0.375rem;
+            text-transform: uppercase;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+        .btn-primary:hover {
+            background-color: #2563EB;
+        }
+        .profile-pic {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .project-card {
+            background-color: #FFFFFF;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 0.5rem;
+            overflow: hidden;
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: scale(1.05);
+        }
+        .project-image {
+            height: 200px;
+            object-fit: cover;
+            width: 100%;
+        }
+    </style>
+</head>
+<body class="bg-primary text-primary">
+    <!-- Header -->
+    <header class="bg-white py-6 shadow-md">
+        <div class="container mx-auto px-4 flex justify-between items-center">
+            <div>
+                <h1 class="text-3xl font-bold accent">Valentin Caille</h1>
+                <p class="text-sm text-gray-600">Ingénieur en systèmes embarqués</p>
+            </div>
+            <nav class="space-x-6">
+                <a href="index.html" class="hover:underline text-gray-600">Accueil</a>
+                <a href="about.html" class="hover:underline text-gray-600">Qui suis-je ?</a>
+                <a href="projects.html" class="hover:underline text-gray-600 accent">Projets</a>
+                <a href="skills.html" class="hover:underline text-gray-600">Compétences</a>
+                <a href="contact.html" class="hover:underline text-gray-600">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gray-100 py-16">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-5xl font-bold mb-4 accent">Mes Projets</h2>
+            <p class="text-lg mb-6">Explorez mes réalisations, où technologie et innovation s'unissent pour des solutions avancées en systèmes embarqués.</p>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <img src="Images/project1.jpg" alt="Station météo connectée" class="project-image">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Station météo connectée</h3>
+                        <p class="text-gray-700">Développement d'une solution IoT pour surveiller les conditions environnementales en temps réel.</p>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <img src="Images/project2.jpg" alt="Tracker d'air portable" class="project-image">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Tracker d'air portable</h3>
+                        <p class="text-gray-700">Conception d'un appareil compact pour analyser la qualité de l'air et fournir des données précises.</p>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <img src="Images/project3.jpg" alt="Optimisation de châssis" class="project-image">
+                    <div class="p-4">
+                        <h3 class="text-xl font-bold mb-2">Optimisation de châssis électronique</h3>
+                        <p class="text-gray-700">Amélioration des performances pour des environnements industriels exigeants.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white text-gray-600 py-6 text-center">
+        <div class="container mx-auto px-4">
+        <p>&copy; 2025 Valentin Caille. Tous droits réservés.</p>
+        <p class="mt-4">📞 <span>Téléphone :</span> 06 33 50 41 24</p>
+        <p>📧 <span>Email :</span> <a href="mailto:valentincaille3002@gmail.com" class="text-blue-500 hover:underline">valentincaille3002@gmail.com</a></p>
+        <div class="mt-4">
+            <a href="https://www.linkedin.com/in/valentin-caille" target="_blank" class="text-blue-500 hover:underline">LinkedIn</a>
+        </div>
+        </div>
+    </footer>
+</body>
+</html>
